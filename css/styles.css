@@ -167,7 +167,7 @@ li:not(:last-child) {
 	text-decoration: none;
 	color: inherit;
 	position: relative;
-	bottom: 12px;
+	bottom: 0.625rem;
 	
 }
 
