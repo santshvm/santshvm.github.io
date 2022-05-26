@@ -30,6 +30,7 @@ html {
 
 .icons-social i {
 	font-size: 3em;
+	
 }
 
 /* Custom Styles */
@@ -69,3 +70,105 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+/*styling the projects.html page*/
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding:  2rem;
+}
+#project-heading {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+/* adding a child of the container */ 
+.container > * {
+    width: 100%;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+justify-center {
+    justify-content: center;
+}
+
+text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.projects {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+
+li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.project-items {
+	font-size: 1.5rem;
+	margin: 2.5rem 0;
+	font-weight: 100;
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+.project-items:hover {
+	cursor: pointer;
+	font-size: 2.5rem;
+	
+}
+
+ 
+
+#btn {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 1.75em;
+	font-weight: 600;
+	
+	
+	padding: 2px;
+	color: #303F9F;
+	border: solid;
+	border-color: white;
+	background-color: white;
+	position: relative;
+	
+}
+
+.project-button {
+	font-size: 1.5rem;
+	margin: 3.5rem 0;
+	font-weight: 100;
+	text-decoration: none;
+	color: inherit;
+	position: relative;
+	bottom: 12px;
+	
+}
+
+
