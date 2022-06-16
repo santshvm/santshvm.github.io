@@ -170,6 +170,8 @@ li:not(:last-child) {
 	color: inherit;
 	position: relative;
 	bottom: 0.625rem;
+	border-radius: 30px;
+	padding: 10px;
 	
 }
 
