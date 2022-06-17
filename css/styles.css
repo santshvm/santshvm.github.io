@@ -174,5 +174,8 @@ li:not(:last-child) {
 	padding: 10px;
 	
 }
+.project-button:hover {
+	transform: translateY(-0.25em);
+}
 
 
